@@ -29,7 +29,7 @@ public class Main {
                 }
             }
         } catch (NumberFormatException e) {
-            System.out.println("Exception appeared at " + i + " : " + k);
+            System.out.println("Exception appeared at cell " + (i + 1) + " : " + (k + 1));
             throw new Exception("MyArrayDataException");
         }
         return sum;
